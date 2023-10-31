@@ -7,7 +7,7 @@ password = 'postgres'
 db_name = 'test'
 port_id = 5432
 
-# Connect database
+# Connect database 123
 def connect_to_db():
     try:
         connection = psycopg2.connect(
